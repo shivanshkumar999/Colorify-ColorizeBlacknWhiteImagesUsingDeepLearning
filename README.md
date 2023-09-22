@@ -41,7 +41,5 @@
 ----
 
 > ## Working of the Project
-
-![](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif)
-
+![Alt Text](https://j.gifs.com/k2k58r.gif)
 ----
