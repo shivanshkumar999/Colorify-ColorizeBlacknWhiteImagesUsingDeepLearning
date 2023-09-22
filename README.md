@@ -43,7 +43,7 @@
 > ## Working of the Project
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">
+  <img src="https://im4.ezgif.com/tmp/ezgif-4-ccbfb6db16.gif">
 </p>
 
 ----
