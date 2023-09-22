@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorify</title>
+	<style>
+		body{
+			font-family: bahnschrift;
+			background-image: url("https://media.istockphoto.com/id/859255062/photo/beautiful-sunset-city-bokeh.jpg?b=1&s=612x612&w=0&k=20&c=sYOY8X07gqiLirKuRP6Mdr8yuX_RMiN5b5PiK2w7X2Q=");
+			background-size: cover;
+		}
+
+		.app{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 75%;
+			text-align:center;
+			padding: 10px;
+			border: 1px solid white;
+		}
+
+		form{
+			background-color:#990000;
+			padding: 10px;
+			margin: 10px;
+		}
+
+		img{
+			width: 75%;
+			border: 5px solid white;
+		}
+
+		.output_container{
+			width:100%;
+			display: inline-flex;
+		}
+
+		input{
+			width: 50%;
+			margin: 10px;
+		}
+
+		input[type=file]{
+			color: white;
+			border: 5px dashed white;
+			/* color: transparent; */
+		}
+
+		input::file-selector-button{
+			width: 80%;
+			height: 100px;
+			background-color: transparent;
+			color:white;
+			border: none;
+			cursor: pointer;
+		}
+
+		input[type=submit]{
+			background-color: black;
+			color:white;
+			border: 5px solid white;
+			padding: 10px;
+			transition: 0.5s ease;
+		}
+
+		input[type=submit]:hover{
+			cursor: pointer;
+			color: crimson;
+			font-weight: bolder;
+			background-color: white;
+		}
+
+		#bg{
+			width: 100%;
+			border: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+
+		h2,h1,h4{
+			color: white;
+		}
+
+		.result{
+			display: inline-block;
+		}
+
+		.result button{
+			color: white;
+			width: 50%;
+			background-color: #990000;
+			transition: 0.5s ease;
+			border: none;
+			padding: 15px;
+			margin: 5px;
+		}
+
+		.result button:hover{
+			color: black;
+			background-color: white;
+			transition: 0.5s ease;
+			cursor: pointer;
+			border: none;
+		}
+
+		.about{
+			position: relative;
+			width: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		.about_content{
+			background-color: white;
+			padding: 20px;
+			display: block;
+			margin-left: auto;
+			width: 50%;
+			text-align: justify;
+		}
+
+		.clickhere{
+			color:#990000;
+			text-decoration: none;
+			transition: 0.5s ease;
+			padding: 2px;
+		}
+
+		.clickhere:hover{
+			color: white;
+			background-color: black;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- <div><img src="https://media.istockphoto.com/id/859255062/photo/beautiful-sunset-city-bokeh.jpg?b=1&s=612x612&w=0&k=20&c=sYOY8X07gqiLirKuRP6Mdr8yuX_RMiN5b5PiK2w7X2Q=" id="bg"></div> -->
+	<div class="header">
+		<center><h1>C<u style="color:#990000">o</u>lorify</h1></center>	
+	</div>
+	<div class="app">
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <input type="submit" value="Colorize">
+    </form><br>
+	<div class="output_container">
+    {% if input_image %}
+		<div>
+        <h2>INPUT</h2><br>
+        <img src="data:image/jpeg;base64,{{ input_image }}" alt="Input Image">
+		</div>
+		{% endif %}
+    {% if output_image %}
+		<div class="result">
+        <h2><span style="color: #990000;">R</span><span style="color: #E60000;">E</span><span style="color: #FF4D4D;">S</span><span style="color: #FF8080;">U</span><span style="color: #FFB3B3;">L</span><span style="color: #FFCCCC;">T</span></h2><br>
+        <img src="data:image/jpeg;base64,{{ output_image }}" alt="Colorized Image">
+		<a href="data:image/jpeg;base64,{{ output_image }}" download="Result.jpeg" ><br><br><button class="download_result">Download</button></a>
+		</div>
+	{% endif %}
+	</div>
+</div>
+<br><br>
+<div class="about">
+	<center><h1>Ab<u style="color:crimson">o</u>ut</h1></center>
+	<p class="about_content">
+		This a Deep Learning Model based tool which is used to <span style="color:#990000;">Colorize</span> Black and white Images.
+		You can download the final result easily into JPEG format. <br><br>
+		This project has been based on Reseach Performed by Zhang et al 2016 ECCV Paper. <br><br>
+		Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to “hallucinate” what an input grayscale image would look like when colorized. <br><br>
+		To know more about the Dataset and the Model - <a href="https://github.com/dhananjayan-r/Colorizer" target="_blank" class="clickhere">Click Here</a>
+
+	</p>
+</div>
+</body>
+</html>
