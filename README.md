@@ -43,7 +43,7 @@
 > ## Working of the Project
 
 <p align="center">
-  <img src="[https://im4.ezgif.com/tmp/ezgif-4-ccbfb6db16.gif](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif)https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif">
+<iframe src="https://giphy.com/embed/6cbVgrpmT8BKURGMPF" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6cbVgrpmT8BKURGMPF">via GIPHY</a></p>
 </p>
 
 ----
