@@ -7,6 +7,10 @@
 
 <p>Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to “hallucinate” what an input grayscale image would look like when colorized.</p>
 
+> ## Working of the Project
+
+Visit this link to see the working - <a href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
+
 
 > ## Technical Aspect
 - The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, [Colorful Image Colorization](http://richzhang.github.io/colorization/). Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
@@ -38,8 +42,4 @@
 
 <img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061033-f048fe80-25c6-11eb-8bc5-d6312c7021b6.png" width=500>
 
-----
-
-> ## Working of the Project
-![Alt Text](https://j.gifs.com/k2k58r.gif)
 ----
