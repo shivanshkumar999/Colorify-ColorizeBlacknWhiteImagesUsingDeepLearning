@@ -9,7 +9,7 @@
 
 > ## Working of the Project
 
-Visit this link to see the working - <a href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
+Visit this link to see the working - <a target="_blank" href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
 
 
 > ## Technical Aspect
