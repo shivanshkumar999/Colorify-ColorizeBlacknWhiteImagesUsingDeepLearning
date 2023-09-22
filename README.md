@@ -12,7 +12,7 @@
 Visit this link to see the working - <a target="_blank" href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/19XpWp3AD0t0-7LcIGa1DGA8L16HG2HdP/view?usp=sharing">
+  <img src="[https://drive.google.com/file/d/19XpWp3AD0t0-7LcIGa1DGA8L16HG2HdP/view?usp=sharing](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif)">
 </p>
 
 
