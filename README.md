@@ -43,7 +43,7 @@
 > ## Working of the Project
 
 <p align="center">
-  <img src="https://im4.ezgif.com/tmp/ezgif-4-ccbfb6db16.gif">
+  <img src="[https://im4.ezgif.com/tmp/ezgif-4-ccbfb6db16.gif](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif)https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif">
 </p>
 
 ----
