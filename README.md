@@ -43,7 +43,7 @@
 > ## Working of the Project
 
 <p align="center">
-<img src = "https://giphy.com/embed/6cbVgrpmT8BKURGMPF">
+![]([https://github.com/](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif)https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/ezgif-4-ccbfb6db16.gif)
 </p>
 
 ----
