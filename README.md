@@ -11,7 +11,8 @@
 
 Visit this link to see the working - <a target="_blank" href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
 
-<img src="https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/blob/main/templates/Screenshot%202023-09-22%20165931.png" width=500>
+![Screenshot 2023-09-22 165931](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/assets/67266253/ed3d46e8-daea-48ff-93d1-65f0f49a99c1)
+
 
 > ## Technical Aspect
 - The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, [Colorful Image Colorization](http://richzhang.github.io/colorization/). Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
