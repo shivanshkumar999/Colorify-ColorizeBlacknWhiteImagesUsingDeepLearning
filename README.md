@@ -8,8 +8,7 @@
 <p>Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to “hallucinate” what an input grayscale image would look like when colorized.</p>
 
 > ## Working of the Project
-
-Visit this link to see the working - <a target="_blank" href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
+ 
 
 ![Screenshot 2023-09-22 165931](https://github.com/shivanshkumar999/Colorify-ColorizeBlacknWhiteImagesUsingDeepLearning/assets/67266253/ed3d46e8-daea-48ff-93d1-65f0f49a99c1)
 
