@@ -11,6 +11,10 @@
 
 Visit this link to see the working - <a target="_blank" href="https://drive.google.com/file/d/1tBYWXd_OhqQ4qQC6JudS4KpuHMjJs7Zk/view?usp=sharing">Colorify Live Demo</a>
 
+<p align="center">
+  <img src="https://drive.google.com/file/d/19XpWp3AD0t0-7LcIGa1DGA8L16HG2HdP/view?usp=sharing">
+</p>
+
 
 > ## Technical Aspect
 - The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, [Colorful Image Colorization](http://richzhang.github.io/colorization/). Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
